@@ -1,0 +1,108 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/* header */
+.nav{
+    height: 84px;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    
+    background-color: #1A2F4C;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    font-family: sans-serif;
+    margin: 0px 53px;
+    padding: 0px 12px;
+    height: 58px;
+    width: 131px;
+}
+.services{
+    width: 500px;
+    display: flex;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    justify-content: space-around;
+    text-decoration: none;
+    
+       
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+a:hover{
+    color: aqua;
+    font-size: 20px;
+
+}
+.btn{
+    height: 33px;
+    width: 110px;
+    background-color: #FFD11A;
+    border-radius: 15px;
+    /* font-size: 11px; */
+}
+/* header */
+
+
+/* Hero */
+.Hero{
+    height: 549px;
+    background-size: cover;
+
+    /* background-image: url(images/1000_F_489473548_IAfIY8YgkRxb9Daac6q8IAyu8eooqtai.jpg); */
+    
+}
+#one{
+    width: 666px;
+    height: 135px ;
+    font-size: 45px;
+    font-family: sans-serif;
+    color: white;
+}
+#two{
+    width: 666px;
+    height: 72px ;
+    font-size: 24px;
+    color: #DCDCDC;
+    font-family: sans-serif;
+}
+#three{
+    padding: 60px;
+}
+.btn:hover{
+    font-size: 15px solid black;
+}
+/* .abc{
+    height: 40px;
+    border: 2px solid black;
+} */
+
+/* footer */
+
+footer{
+    height: 50px;
+    background-color: #1A2F4C;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+
+}
+footer:hover{
+    color: aqua;
+    font-size: 20px;
+
+}
